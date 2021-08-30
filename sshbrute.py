@@ -6,7 +6,7 @@
 
 import sys, time
 try:
-	import pexpect, pxssh
+	from pexpect import pxssh
 except(ImportError):
 	print "\nYou need the pexpect module."
 	print "http://www.noah.org/wiki/Pexpect\n"
